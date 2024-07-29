@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { CheckCircle, XCircle, ArrowRight } from "lucide-react";
+import YouTube from "react-youtube";
 
 const ComparisonItem = ({ title, items, icon, isPositive }) => (
   <div className="mb-4">
@@ -186,6 +187,29 @@ const RealWorldComparison = () => {
           </div>
         </div>
       )}
+
+      <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
+        <h3 className="text-lg font-semibold mb-4">
+          Learn More: Custom Coding vs No-code Solutions
+        </h3>
+        <p className="mb-4 text-sm">
+          No-code app development is a trap, and I fell right into it! Losing
+          hundreds of dollars in the process. Here’s my somewhat tragic(?) story
+          of how I got scammed by the promises of no-code platforms.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <YouTube
+            videoId="xkMuykgicYA"
+            opts={{
+              width: "100%",
+              height: "100%",
+              playerVars: {
+                autoplay: 0,
+              },
+            }}
+          />
+        </div>
+      </div>
     </div>
   );
 };
