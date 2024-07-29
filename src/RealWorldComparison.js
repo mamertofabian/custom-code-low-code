@@ -193,10 +193,21 @@ const RealWorldComparison = () => {
           Learn More: Custom Coding vs No-code Solutions
         </h3>
         <p className="mb-4 text-sm">
-          No-code app development is a trap, and I fell right into it! Losing
-          hundreds of dollars in the process. Here’s my somewhat tragic(?) story
-          of how I got scammed by the promises of no-code platforms.
+          The video discusses the pitfalls of no-code app development platforms, focusing on the speaker's personal experience with FlutterFlow. The main argument is that these platforms are a "trap" because:
         </p>
+        <ul className="list-disc pl-5 mb-4 text-sm">
+          <li>They often can't handle complex or unique features, limiting customization.</li>
+          <li>The generated code is often messy and difficult to work with.</li>
+          <li>They market themselves as full-stack solutions but fall short for production-grade applications.</li>
+        </ul>
+        <h4 className="font-semibold mb-2">Key points:</h4>
+        <ul className="list-disc pl-5 mb-4 text-sm">
+          <li>No-code platforms like FlutterFlow and Bubble work well for simple apps or MVPs.</li>
+          <li>They struggle with the last 10-20% of development, especially for unique features.</li>
+          <li>Downloading and working with the generated code can be challenging.</li>
+          <li>Many developers recommend building apps "the old-fashioned way" for better results.</li>
+          <li>No-code platforms can be useful for quick prototypes but may not be suitable for full-scale, production-ready applications.</li>
+        </ul>
         <div className="aspect-w-16 aspect-h-9">
           <YouTube
             videoId="xkMuykgicYA"
