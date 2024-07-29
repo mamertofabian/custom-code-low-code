@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/custom-code-low-code/static/css/main.eb6f53be.css",
-    "main.js": "/custom-code-low-code/static/js/main.78df6e60.js",
+    "main.css": "/custom-code-low-code/static/css/main.10a31d55.css",
+    "main.js": "/custom-code-low-code/static/js/main.5e5e039f.js",
     "static/js/453.5c7b3fe9.chunk.js": "/custom-code-low-code/static/js/453.5c7b3fe9.chunk.js",
     "index.html": "/custom-code-low-code/index.html",
-    "main.eb6f53be.css.map": "/custom-code-low-code/static/css/main.eb6f53be.css.map",
-    "main.78df6e60.js.map": "/custom-code-low-code/static/js/main.78df6e60.js.map",
+    "main.10a31d55.css.map": "/custom-code-low-code/static/css/main.10a31d55.css.map",
+    "main.5e5e039f.js.map": "/custom-code-low-code/static/js/main.5e5e039f.js.map",
     "453.5c7b3fe9.chunk.js.map": "/custom-code-low-code/static/js/453.5c7b3fe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb6f53be.css",
-    "static/js/main.78df6e60.js"
+    "static/css/main.10a31d55.css",
+    "static/js/main.5e5e039f.js"
   ]
 }
